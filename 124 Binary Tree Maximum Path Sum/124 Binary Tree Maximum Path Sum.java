@@ -1,7 +1,3 @@
-//LeetCode Link: https://leetcode.com/problems/binary-tree-maximum-path-sum/
-//Youtube Link: https://youtu.be/6wv9yMSenvQ
-
-
 class Solution {
     
     int maxSum = Integer.MIN_VALUE;
