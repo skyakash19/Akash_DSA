@@ -1,12 +1,3 @@
-// Most asked problems at FAANG companies: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-// Leetcode Link: https://leetcode.com/problems/roman-to-integer/
-
-// Video Solution: https://www.youtube.com/watch?v=qmkr61ySQwQ
-
-**************** Java Solution ***********************
-
-
 class Solution {
     
     static Map<String, Integer> values = new HashMap<>();
