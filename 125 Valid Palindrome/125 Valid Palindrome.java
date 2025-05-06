@@ -1,6 +1,3 @@
-//LeetCode Link: https://leetcode.com/problems/valid-palindrome/
-//Youtube Solution: https://youtu.be/MFPmKyThyHk
-
 class Solution {
     public boolean isPalindrome(String s) {
         
