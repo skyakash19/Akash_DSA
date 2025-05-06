@@ -1,7 +1,3 @@
-//Leetcode Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/
-//Youtube Link: https://www.youtube.com/watch?v=IAMk9ZSpvjQ
-//**************** Java Solution ***********************
-
 class Solution {
     public int maxDepth(TreeNode root) {
         
