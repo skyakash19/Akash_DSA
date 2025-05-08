@@ -1,13 +1,5 @@
-//Best Leetcode problems for FAANG: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-//Youtube Solution: https://www.youtube.com/watch?v=nLTqtBLhPbQ
-//Leetcode Link: https://leetcode.com/problems/implement-trie-prefix-tree/
-
-**************** Java Solution ***********************
-
-
 class TrieNode {
 
-    // R links to node children
     private TrieNode[] links;
 
     private final int R = 26;
