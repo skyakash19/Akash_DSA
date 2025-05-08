@@ -1,10 +1,3 @@
-Most asked problems at FAANG companies- https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-Leetcode Link- https://leetcode.com/problems/majority-element/
-
-Video Solution -  https://www.youtube.com/watch?v=UoTI6zBIBMo
-
-
 class Solution {
     private Map<Integer, Integer> countNums(int[] nums) {
         Map<Integer, Integer> counts = new HashMap<Integer, Integer>();
