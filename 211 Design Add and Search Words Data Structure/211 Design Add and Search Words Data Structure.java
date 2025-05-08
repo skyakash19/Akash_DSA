@@ -1,10 +1,3 @@
-//Best Leetcode problems for FAANG: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-//Youtube Solution: https://www.youtube.com/watch?v=Z7Kr2b4d9fE
-//Leetcode Link: https://leetcode.com/problems/design-add-and-search-words-data-structure/
-
-//**************** Java Solution ***********************
-
-
 class TrieNode {
     Map<Character, TrieNode> children = new HashMap();
     boolean word = false;
@@ -57,10 +50,3 @@ class WordDictionary {
         
     }
 }
-
-/**
- * Your WordDictionary object will be instantiated and called as such:
- * WordDictionary obj = new WordDictionary();
- * obj.addWord(word);
- * boolean param_2 = obj.search(word);
- */
