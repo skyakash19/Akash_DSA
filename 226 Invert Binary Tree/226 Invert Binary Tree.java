@@ -1,8 +1,3 @@
-//Leetcode Link: https://leetcode.com/problems/invert-binary-tree/
-//Youtube Solution : https://youtu.be/yb2Y9h2YWio
-
-//**************** Java Solution ***********************
-
 class Solution {
     public TreeNode invertTree(TreeNode root) {
         
