@@ -1,6 +1,3 @@
-//LeetCode Link: https://leetcode.com/problems/valid-parentheses/
-// Youtube Solution: https://www.youtube.com/watch?v=D4l9TK0tWcI
-
 class Solution {
      
     public boolean isValid(String s) {
