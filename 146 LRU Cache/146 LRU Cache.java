@@ -1,12 +1,3 @@
-// Most asked problems at FAANG companies: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-// Leetcode Link: https://leetcode.com/problems/lru-cache
-
-// Video Solution: https://www.youtube.com/watch?v=VPq5dlxaeP8
-
-**************** Java Solution ***********************
-
-
 import java.util.HashMap;
 
 public class LRUCache {
@@ -75,6 +66,3 @@ public class LRUCache {
         node.prev = head;
     }
 }
-
-    
-    
