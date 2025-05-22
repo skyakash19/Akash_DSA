@@ -1,15 +1,3 @@
-// Most asked problems at FAANG companies: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-// Leetcode Link: https://leetcode.com/problems/find-the-celebrity/
-
-// Video Solution: https://www.youtube.com/watch?v=lqdgGNGPS68
-
-**************** Java Solution ***********************
-
-
-/* The knows API is defined in the parent class Relation.
-      boolean knows(int a, int b); */
-
 public class Solution extends Relation {
     
     private int numOfPeople;
