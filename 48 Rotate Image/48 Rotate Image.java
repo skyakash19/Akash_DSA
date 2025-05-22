@@ -1,6 +1,3 @@
-// LeetCode Link:https://leetcode.com/problems/rotate-image/
-// Youtube Solution:
-
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
