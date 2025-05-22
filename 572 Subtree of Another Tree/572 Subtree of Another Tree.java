@@ -1,6 +1,3 @@
-//LeetCode Link: https://leetcode.com/problems/subtree-of-another-tree/
-//Youtube Solution: https://www.youtube.com/watch?v=YOW_-ptARNE
-
 class Solution {
     
     public boolean isSame(TreeNode s, TreeNode t){
