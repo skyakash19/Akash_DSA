@@ -1,18 +1,8 @@
-// Most asked problems at FAANG companies: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-// Leetcode Link: https://leetcode.com/problems/design-twitter/
-
-// Video Solution: https://www.youtube.com/watch?v=esZ4vvjwW6E
-
-**************** Java Solution ***********************
-
-
 import java.util.*;
 
 public class Twitter {
     private static int timeStamp = 0;
 
-    // User class to represent each user in Twitter
     private class User {
         int id;
         Set<Integer> followed;
@@ -21,7 +11,7 @@ public class Twitter {
         public User(int id) {
             this.id = id;
             followed = new HashSet<>();
-            follow(id); // User should follow themself
+            follow(id);
             tweetHead = null;
         }
 
@@ -42,7 +32,6 @@ public class Twitter {
         }
     }
 
-    // Tweet class to represent each tweet
     private class Tweet {
         int id;
         int time;
@@ -57,12 +46,10 @@ public class Twitter {
 
     private Map<Integer, User> userMap;
 
-    /** Initialize your data structure here. */
     public Twitter() {
         userMap = new HashMap<>();
     }
 
-    /** Compose a new tweet. */
     public void postTweet(int userId, int tweetId) {
         if (!userMap.containsKey(userId)) {
             User newUser = new User(userId);
@@ -71,11 +58,6 @@ public class Twitter {
         userMap.get(userId).post(tweetId);
     }
 
-    /**
-     * Retrieve the 10 most recent tweet ids in the user's news feed.
-     * Each item in the news feed must be posted by users who the user followed or by the user themselves.
-     * Tweets must be ordered from most recent to least recent.
-     */
     public List<Integer> getNewsFeed(int userId) {
         List<Integer> newsFeed = new LinkedList<>();
         if (!userMap.containsKey(userId)) return newsFeed;
@@ -103,7 +85,6 @@ public class Twitter {
         return newsFeed;
     }
 
-    /** Follower follows a followee. */
     public void follow(int followerId, int followeeId) {
         if (!userMap.containsKey(followerId)) {
             User newUser = new User(followerId);
@@ -116,7 +97,6 @@ public class Twitter {
         userMap.get(followerId).follow(followeeId);
     }
 
-    /** Follower unfollows a followee. */
     public void unfollow(int followerId, int followeeId) {
         if (userMap.containsKey(followerId) && followerId != followeeId) {
             userMap.get(followerId).unfollow(followeeId);
