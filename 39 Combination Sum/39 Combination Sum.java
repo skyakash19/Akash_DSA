@@ -24,5 +24,4 @@ class Solution {
             combination.remove(combination.size()-1);
         }
     }
-}
-    
+}    
