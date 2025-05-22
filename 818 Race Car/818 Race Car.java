@@ -1,12 +1,3 @@
-// Most asked problems at FAANG companies: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-// Leetcode Link: https://leetcode.com/problems/race-car/
-
-// Video Solution: https://www.youtube.com/watch?v=TAXt_TkSNfw
-
-**************** Java Solution ***********************
-
-
 class Solution {
     public int racecar(int target) {
         
