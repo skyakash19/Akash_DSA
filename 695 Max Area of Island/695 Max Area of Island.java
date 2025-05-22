@@ -1,11 +1,3 @@
-// Most asked problems at FAANG companies: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-// Leetcode Link: https://leetcode.com/problems/max-area-of-island/
-
-// Video Solution: https://www.youtube.com/watch?v=Dy-M-Suk8nk
-
-**************** Java Solution ***********************
-
 public class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         if (grid == null || grid.length == 0) return 0;
@@ -25,9 +17,8 @@ public class Solution {
         if (i < 0 || i >= grid.length || j < 0 || j >= grid[i].length || grid[i][j] == 0) {
             return 0;
         }
-        grid[i][j] = 0; // Mark the cell as visited
-        int area = 1; // Current cell
-        // Explore 4-directionally
+        grid[i][j] = 0; 
+        int area = 1;
         area += dfs(grid, i + 1, j);
         area += dfs(grid, i - 1, j);
         area += dfs(grid, i, j + 1);
