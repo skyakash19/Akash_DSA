@@ -1,6 +1,3 @@
-//LeetCode Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-// Youtube Explaination: https://youtu.be/RMQ-gRQAY0o
-
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         
@@ -32,5 +29,3 @@ class Solution {
         return ans;
     }
 }
-
-// test
