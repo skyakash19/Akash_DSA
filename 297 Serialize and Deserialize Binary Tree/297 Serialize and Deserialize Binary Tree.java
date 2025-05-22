@@ -1,8 +1,3 @@
-//LeetCode Link:https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
-//Problem Solution:https://www.youtube.com/watch?v=vqbpTOU-LS4
-
-//Java Code
-
 public class Codec {
     public String recserialize(TreeNode root, String str){
     
@@ -23,7 +18,7 @@ public class Codec {
         
         
     }
-    // Decodes your encoded data to tree.
+
     public TreeNode recdeserialize(List<String> strs){
         if(strs.get(0).equals("null")){
             strs.remove(0);
