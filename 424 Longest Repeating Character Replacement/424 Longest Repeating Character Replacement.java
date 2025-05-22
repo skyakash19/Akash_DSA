@@ -1,6 +1,3 @@
-//LeetCode Link: https://leetcode.com/problems/longest-repeating-character-replacement/
-// Youtube Link: https://youtu.be/FYyWsqFjkZk
-
 class Solution {
     public int characterReplacement(String s, int k) {
         
