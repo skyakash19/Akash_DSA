@@ -1,6 +1,3 @@
-// LeetCode Link: https://leetcode.com/problems/spiral-matrix/
-// Youtube Solution: https://www.youtube.com/watch?v=xUpnTpzMqfI
-
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         
