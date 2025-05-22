@@ -1,14 +1,3 @@
-// Most asked problems at FAANG companies: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-// Leetcode Link:https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
-
-// Video Solution: https://www.youtube.com/watch?v=gvwTGXP-reQ
-
-**************** Java Solution ***********************
-
-
-// DFS + Memoization Solution
-// Accepted and Recommended
 public class Solution {
     private static final int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
     private int m, n;
