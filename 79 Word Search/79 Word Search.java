@@ -1,7 +1,3 @@
-//LeetCode Link: https://leetcode.com/problems/word-search/
-// Youtube Explaination: 
-
-
 class Solution {
 
     public char[][] board;
