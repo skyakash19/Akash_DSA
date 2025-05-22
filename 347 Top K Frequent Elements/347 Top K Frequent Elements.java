@@ -1,10 +1,3 @@
-//Best Leetcode problems for FAANG: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-//Youtube solution: https://www.youtube.com/watch?v=QubWUx59QCk
-//Leetcode Link: https://leetcode.com/problems/top-k-frequent-elements/0
-
-//**************** Java Solution ***********************
-
-
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         
