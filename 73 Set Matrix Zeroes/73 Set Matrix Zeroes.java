@@ -1,7 +1,3 @@
-// LeetCode Problem Link: https://leetcode.com/problems/set-matrix-zeroes/
-//Youtube Solution: https://www.youtube.com/watch?v=JwQvyZcwcP4
-
-
 class Solution {
     public void setZeroes(int[][] matrix) {
         
