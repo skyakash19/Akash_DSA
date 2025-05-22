@@ -1,12 +1,3 @@
-// Most asked problems at FAANG companies: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-// Leetcode Link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
-
-// Video Solution: https://www.youtube.com/watch?v=aPD6g96fRO4
-
-// **************** Java Solution ***********************
-
-
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int first = this.findBound(nums, target, true);
@@ -58,6 +49,4 @@ class Solution {
 
         }
         return -1;
-
     }
-
