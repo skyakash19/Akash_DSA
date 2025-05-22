@@ -1,11 +1,3 @@
-// Most asked problems at FAANG companies: https://docs.google.com/spreadsheets/d/1hzP8j7matoUiJ15N-RhsL5Dmig8_E3aP/edit#gid=1377915986
-
-// Leetcode Link: https://leetcode.com/problems/min-cost-climbing-stairs/
-
-// Video Solution: https://www.youtube.com/watch?v=A3LYMRqAQeU
-
-**************** Java Solution ***********************
-
 class Solution {
    public static int minCostClimbingStairs(int[] cost) {
         if (cost.length == 1) return cost[0];
@@ -20,7 +12,6 @@ class Solution {
             second = current;
         }
         
-        // Minimum cost to reach the last step or one step past it
         return Math.min(first, second);
     }
 }
